@@ -36,6 +36,36 @@
     --radius: 0.5rem;
   }
 
+  .theme-b {
+    --background: 35 33% 97%; /* #FBF9F7 */
+    --foreground: 20 14% 4%; 
+
+    --card: 0 0% 100%;
+    --card-foreground: 20 14% 4%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 14% 4%;
+
+    --primary: 158 29% 75%; /* #AFC8BA */
+    --primary-foreground: 20 14% 8%;
+
+    --secondary: 158 25% 95%;
+    --secondary-foreground: 20 14% 8%;
+
+    --muted: 35 30% 94%;
+    --muted-foreground: 20 10% 45%;
+    
+    --accent: 35 91% 80%; /* #FADAB4 */
+    --accent-foreground: 20 14% 8%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 35 25% 90%;
+    --input: 35 25% 90%;
+    --ring: 158 29% 75%;
+  }
+
   .dark {
     /* Keeping dark theme as a fallback, but app will be light theme */
     --background: 222.2 84% 4.9%;

@@ -3,10 +3,17 @@
 
 import * as React from "react";
 import Link from "next/link";
-import { Menu, Briefcase, Code, User, MessageSquare, Home, FolderGit2 } from "lucide-react";
+import { Menu, Briefcase, Code, User, MessageSquare, Home, FolderGit2, Palette } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { useTheme } from "next-themes";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 const navLinks = [
   { href: "#hero", label: "Home", icon: Home },
@@ -16,6 +23,30 @@ const navLinks = [
   { href: "#projects", label: "Projects", icon: FolderGit2 },
   { href: "#contact", label: "Contact", icon: MessageSquare },
 ];
+
+
+function ThemeToggle() {
+  const { setTheme, theme } = useTheme()
+
+  return (
+    <DropdownMenu>
+      <DropdownMenuTrigger asChild>
+        <Button variant="ghost" size="icon">
+          <Palette className="h-[1.2rem] w-[1.2rem]" />
+          <span className="sr-only">Toggle theme</span>
+        </Button>
+      </DropdownMenuTrigger>
+      <DropdownMenuContent align="end">
+        <DropdownMenuItem onClick={() => setTheme("light")}>
+          Theme A
+        </DropdownMenuItem>
+        <DropdownMenuItem onClick={() => setTheme("theme-b")}>
+          Theme B
+        </DropdownMenuItem>
+      </DropdownMenuContent>
+    </DropdownMenu>
+  )
+}
 
 export function Header() {
   const [open, setOpen] = React.useState(false);
@@ -67,6 +98,7 @@ export function Header() {
           </SheetContent>
         </Sheet>
         <div className="flex flex-1 items-center justify-end space-x-2">
+          <ThemeToggle />
           <Button asChild>
               <a href="/Abhishek_Karande_Resume.pdf" download>
                 View Resume
