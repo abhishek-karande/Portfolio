@@ -4,22 +4,27 @@ import { Briefcase } from "lucide-react";
 
 const experienceData = [
     {
-        title: "Senior Backend Engineer",
-        company: "Tech Solutions Inc.",
-        date: "Jan 2020 - Present",
-        description: "Led the design and development of a new microservices-based platform using Spring Boot and Kafka. Improved system performance by 30% through query optimization and caching strategies with Redis. Mentored junior engineers."
+        title: "Software Engineer 3",
+        company: "Tracelink Inc.",
+        date: "Aug 2021 - Present",
+        description: "Orchestrated Lucene-based indexing and advanced query optimization, reducing query latency by 35%, while building robust, client-facing CRUD APIs powering 99% of TLDB data transactions.\
+        Designed the Persistent Storage Manager for automated disaster recovery, delivering rapid failover and minimal downtime. \
+  Leveraged Grafana and Prometheus to deliver deep observability across 120+ metrics, slashing incident response times by up to 60%. \
+  At WorldView, pioneered efficient data access with implicit and explicit Memcached-based caching (cutting access times by 45%), \
+  scalable S3 APIs handling 1M+ daily objects, and secure large-file handling with pre-signed URLs.\
+   Demonstrated strong ownership in delivering data reliability, system scalability, and continuous performance enhancements. Mentored junior engineers."
+    },
+    {
+        title: "Software Design Engineer",
+        company: "Onlinesales.ai",
+        date: "Mar 2021 - Jul 2021",
+        description: "developed scalable bulk wallet recharge and package selection features using Python and REST APIs to streamline customer onboarding. Enabled simultaneous onboarding of large numbers of merchants, resulting in exponential reduction of client onboarding time and enhancing operational efficiency for the organization."
     },
     {
         title: "Software Engineer",
-        company: "Innovate Corp.",
-        date: "Jun 2017 - Dec 2019",
-        description: "Developed and maintained RESTful APIs for a high-traffic e-commerce application. Worked on integrating third-party payment gateways and implemented robust security measures using OAuth2 and JWT."
-    },
-    {
-        title: "Associate Software Engineer",
-        company: "Code Crafters",
-        date: "Jul 2015 - May 2017",
-        description: "Contributed to building a monolith-to-microservices migration project. Wrote unit and integration tests to ensure code quality and reliability. Gained experience with CI/CD pipelines and agile methodologies."
+        company: "Xoriant Solutions",
+        date: "Jul 2018 - Mar 2021",
+        description: "Designed and developed middleware solutions for seamless message-based integration between UI and Apache Spark applications, enabling efficient communication across components. Architected scalable Spark-based BI reporting tools supporting CSV, XLSX, PDF, and HTML output, leveraging Apache POI for advanced Excel functionality. Built an internal ETL framework using Spark, Hive, and Spring, enabling regulatory reporting across LATAM regions through SQL-driven configurations. Implemented custom data masking UDFs to enforce field-level confidentiality in Hive tables, ensuring compliance with data privacy standards. Delivered robust data ingestion modules for Hive, Oracle, and various file systems, supporting both incremental and full data loads with integrated validation. Ensured high code quality and reliability through comprehensive automated unit testing using JUnit and Mockito."
     }
 ];
 
