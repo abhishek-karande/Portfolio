@@ -68,8 +68,8 @@ export function Header() {
         </Sheet>
         <div className="flex flex-1 items-center justify-end space-x-2">
           <Button asChild>
-              <a href="/Abhishek_Karande_Resume.pdf" download>
-                View Resume
+              <a href="#contact">
+                Hire Me!
               </a>
           </Button>
         </div>

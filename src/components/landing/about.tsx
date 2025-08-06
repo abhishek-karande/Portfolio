@@ -23,9 +23,9 @@ export function About() {
         <div className="relative">
             <Card className="p-2 shadow-lg">
                 <Image
-                    src="https://placehold.co/600x750.png"
+                    src="/abhishek-on-laptop.jpg"
                     alt="Abhishek working on a laptop"
-                    width={600}
+                    width={750}
                     height={750}
                     className="rounded-md object-cover"
                     data-ai-hint="man programming"

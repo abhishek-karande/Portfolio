@@ -22,11 +22,6 @@ export function Hero() {
             <Button size="lg" asChild>
               <a href="#contact">Contact Me</a>
             </Button>
-            <Button size="lg" variant="outline" asChild>
-              <a href="/Abhishek_Karande_Resume.pdf" download>
-                Download Resume
-              </a>
-            </Button>
           </div>
           <div className="flex items-center justify-center lg:justify-start gap-4 mt-6">
             <Link href="https://github.com/abhishek-karande" target="_blank" aria-label="Github">
@@ -35,14 +30,14 @@ export function Hero() {
             <Link href="https://linkedin.com/in/abhishek-karande" target="_blank" aria-label="LinkedIn">
               <Linkedin className="h-6 w-6 text-muted-foreground hover:text-foreground" />
             </Link>
-             <Link href="mailto:abhishek.karande@example.com" aria-label="Email">
+             <Link href="mailto:akarande70@gmail.com.com" aria-label="Email">
               <Mail className="h-6 w-6 text-muted-foreground hover:text-foreground" />
             </Link>
           </div>
         </div>
         <div className="relative flex items-center justify-center">
             <Avatar className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 border-4 border-background shadow-lg">
-                <AvatarImage src="https://placehold.co/400x400.png" alt="Abhishek Karande" data-ai-hint="man portrait"/>
+                <AvatarImage src="/abhishek-karande-crop.jpg" alt="Abhishek Karande" data-ai-hint="man portrait"/>
                 <AvatarFallback>AK</AvatarFallback>
             </Avatar>
         </div>

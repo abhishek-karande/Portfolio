@@ -126,7 +126,7 @@ export function Contact() {
                 You can reach me via email or connect with me on social media. I'm always happy to chat about technology, projects, or potential opportunities.
             </p>
             <div className="flex flex-col gap-4">
-                 <Link href="mailto:abhishek.karande@example.com" className="flex items-center gap-3 group">
+                 <Link href="mailto:akarande70@gmail.com" className="flex items-center gap-3 group">
                     <Mail className="h-6 w-6 text-accent group-hover:scale-110 transition-transform" />
                     <span className="text-muted-foreground group-hover:text-foreground">abhishek.karande@example.com</span>
                  </Link>
