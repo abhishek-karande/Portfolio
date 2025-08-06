@@ -16,7 +16,7 @@ export function Footer() {
                     <Link href="https://linkedin.com/in/abhishek-karande" target="_blank" aria-label="LinkedIn">
                         <Linkedin className="h-5 w-5 text-muted-foreground hover:text-foreground" />
                     </Link>
-                    <Link href="mailto:abhishek.karande@example.com" aria-label="Email">
+                    <Link href="mailto:akarande70@gmail.com" aria-label="Email">
                         <Mail className="h-5 w-5 text-muted-foreground hover:text-foreground" />
                     </Link>
                 </div>

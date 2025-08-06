@@ -18,7 +18,7 @@ const experienceData = [
         title: "Software Design Engineer",
         company: "Onlinesales.ai",
         date: "Mar 2021 - Jul 2021",
-        description: "developed scalable bulk wallet recharge and package selection features using Python and REST APIs to streamline customer onboarding. Enabled simultaneous onboarding of large numbers of merchants, resulting in exponential reduction of client onboarding time and enhancing operational efficiency for the organization."
+        description: "Developed scalable bulk wallet recharge and package selection features using Python and REST APIs to streamline customer onboarding. Enabled simultaneous onboarding of large numbers of merchants, resulting in exponential reduction of client onboarding time and enhancing operational efficiency for the organization."
     },
     {
         title: "Software Engineer",

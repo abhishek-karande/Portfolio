@@ -17,7 +17,7 @@ export function About() {
             My expertise lies in Java and Golang, with a strong command over frameworks like Spring Boot and Vert.x. I'm passionate about building cloud-native solutions and have extensive experience with microservices architecture, containerization, and various database technologies, both SQL and NoSQL. I value clean code, robust architecture, and collaborative teamwork.
           </p>
            <p className="mt-4 text-muted-foreground text-lg">
-            I'm actively seeking full-time backend engineering roles in India or abroad (remote or relocation-friendly) where I can contribute to challenging projects and continue to grow as an engineer.
+            I'm actively seeking full-time backend engineering roles in India or abroad (relocation-friendly) where I can contribute to challenging projects and continue to grow as an engineer.
           </p>
         </div>
         <div className="relative">
@@ -25,7 +25,7 @@ export function About() {
                 <Image
                     src="/abhishek-on-laptop.jpg"
                     alt="Abhishek working on a laptop"
-                    width={750}
+                    width={850}
                     height={750}
                     className="rounded-md object-cover"
                     data-ai-hint="man programming"

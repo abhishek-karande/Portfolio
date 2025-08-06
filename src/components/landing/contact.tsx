@@ -128,7 +128,7 @@ export function Contact() {
             <div className="flex flex-col gap-4">
                  <Link href="mailto:akarande70@gmail.com" className="flex items-center gap-3 group">
                     <Mail className="h-6 w-6 text-accent group-hover:scale-110 transition-transform" />
-                    <span className="text-muted-foreground group-hover:text-foreground">abhishek.karande@example.com</span>
+                    <span className="text-muted-foreground group-hover:text-foreground">akarande70@gmail.com</span>
                  </Link>
                  <Link href="https://linkedin.com/in/abhishek-karande" target="_blank" className="flex items-center gap-3 group">
                     <Linkedin className="h-6 w-6 text-accent group-hover:scale-110 transition-transform" />

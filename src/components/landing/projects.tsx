@@ -23,14 +23,6 @@ const projects = [
     tags: ["Golang", "gRPC", "Lucene", "Docker"],
     github: "https://github.com/abhishek-karande/search-api",
   },
-  {
-    title: "Cloud Data Processing Pipeline",
-    description: "An ETL pipeline using Apache Spark for processing large datasets, deployed on a cloud-native infrastructure.",
-    image: "https://placehold.co/600x400.png",
-    imageHint: "data pipeline",
-    tags: ["Apache Spark", "Java", "Cloud", "Kubernetes"],
-    github: "https://github.com/abhishek-karande/data-pipeline",
-  },
 ];
 
 export function Projects() {
