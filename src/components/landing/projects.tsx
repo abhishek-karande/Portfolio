@@ -10,7 +10,7 @@ const projects = [
   {
     title: "Distributed Task Scheduler",
     description: "A high-throughput, fault-tolerant task scheduling system built with Kafka and Spring Boot, capable of managing millions of jobs.",
-    image: "https://placehold.co/600x400.png",
+    image: "/project-1-stack-blue.png",
     imageHint: "abstract network",
     tags: ["Java", "Spring Boot", "Kafka", "Redis"],
     github: "https://github.com/abhishek-karande/task-scheduler",
@@ -18,7 +18,7 @@ const projects = [
   {
     title: "Real-time Search API",
     description: "A Go-based microservice providing a low-latency search API using Lucene for indexing and gRPC for communication.",
-    image: "https://placehold.co/600x400.png",
+    image: "/project-2-stack.png",
     imageHint: "code lines",
     tags: ["Golang", "gRPC", "Lucene", "Docker"],
     github: "https://github.com/abhishek-karande/search-api",
@@ -60,8 +60,8 @@ export function Projects() {
             </CardContent>
             <CardFooter className="p-6 pt-0">
               <Button asChild className="w-full">
-                <Link href={project.github} target="_blank">
-                  <Github className="mr-2 h-4 w-4" /> View on GitHub
+                <Link href="#projects" target="_blank">
+                  <Github className="mr-2 h-4 w-4" /> Coming soon, work in progress!
                 </Link>
               </Button>
             </CardFooter>
