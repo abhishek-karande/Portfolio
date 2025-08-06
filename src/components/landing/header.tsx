@@ -26,7 +26,7 @@ const navLinks = [
 
 
 function ThemeToggle() {
-  const { setTheme, theme } = useTheme()
+  const { setTheme } = useTheme()
 
   return (
     <DropdownMenu>
@@ -37,7 +37,7 @@ function ThemeToggle() {
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
-        <DropdownMenuItem onClick={() => setTheme("light")}>
+        <DropdownMenuItem onClick={() => setTheme("theme-a")}>
           Theme A
         </DropdownMenuItem>
         <DropdownMenuItem onClick={() => setTheme("theme-b")}>

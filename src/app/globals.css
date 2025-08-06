@@ -5,6 +5,10 @@
 
 @layer base {
   :root {
+    --radius: 0.5rem;
+  }
+ 
+  .theme-a {
     --background: 206 60% 98%; /* #F5F9FC */
     --foreground: 224 71% 4%; /* A very dark blue, almost black */
 
@@ -32,8 +36,6 @@
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
     --ring: 262 47% 79%;
-
-    --radius: 0.5rem;
   }
 
   .theme-b {
