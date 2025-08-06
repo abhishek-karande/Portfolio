@@ -14,7 +14,7 @@ const navLinks = [
   { href: "#skills", label: "Skills", icon: Code },
   { href: "#experience", label: "Experience", icon: Briefcase },
   { href: "#projects", label: "Projects", icon: FolderGit2 },
-  { href: "#contact", label: "Contact", icon: MessageSquare },
+ 
 ];
 
 export function Header() {
@@ -69,7 +69,7 @@ export function Header() {
         <div className="flex flex-1 items-center justify-end space-x-2">
           <Button asChild>
               <a href="#contact">
-                Hire Me!
+                Get in touch!
               </a>
           </Button>
         </div>
